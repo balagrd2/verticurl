@@ -81,7 +81,7 @@ self.addEventListener('push', function(event) {
   var body = {
     'body': 'Hello, Welcome to Verticurl',
     'tag': 'vrt',
-    'icon': './images/48x48.png'
+    'icon': 'images/icons/icon-128x128.png'
   };
 
   event.waitUntil(
@@ -92,7 +92,7 @@ self.addEventListener('push', function(event) {
 
 self.addEventListener('notificationclick', function(event) {
 
-  var url = './index.html';
+  var url = 'index.html';
 
   event.notification.close(); //Close the notification
 
