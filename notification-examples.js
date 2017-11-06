@@ -32,7 +32,7 @@
   }
 
   const allOptionsNotification = function(registration) {
-    const title = 'Web Push Book';
+    const title = 'VERTICURL';
      const options = {
       body: 'Hello, Welcome to Verticurl.\n' +
         'WE THINK GLOBALLY AND DELIVER THE RIGHT RESULTS WHEN YOU NEED THEM.',
