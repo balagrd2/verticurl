@@ -34,9 +34,9 @@
   const allOptionsNotification = function(registration) {
     const title = 'Web Push Book';
     const options = {
-     'body': 'Hello, Welcome to Verticurl',
-      'tag': 'vrt',
-      'icon': 'images/icons/icon-128x128.png'
+     body: 'Hello, Welcome to Verticurl',
+      tag: 'vrt',
+      icon: 'images/icons/icon-128x128.png'
       ]
     };
     registration.showNotification(title, options);
