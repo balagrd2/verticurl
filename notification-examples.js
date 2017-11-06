@@ -34,19 +34,10 @@
   const allOptionsNotification = function(registration) {
     const title = 'Web Push Book';
      const options = {
-      body: 'This would be the body text of the notification.\n' +
-        'It can hold two lines of text.',
+      body: 'Hello, Welcome to Verticurl.\n' +
+        'WE THINK GLOBALLY AND DELIVER THE RIGHT RESULTS WHEN YOU NEED THEM.',
       icon: 'images/icons/icon-128x128.png',
-      badge: '/images/demos/badge-128x128.png',
-      image: '/images/demos/unsplash-farzad-nazifi-1600x1100.jpg',
-      tag: 'example-notification',
-      actions: [
-        {
-          action: 'download-book-action',
-          title: 'Download Book',
-          icon: '/images/demos/action-download-book-128x128.png'
-        }
-      ]
+      tag: 'verticurl'
     };
     registration.showNotification(title, options);
   };
