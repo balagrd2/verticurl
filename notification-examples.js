@@ -40,14 +40,9 @@
       tag: 'verticurl',
         actions: [
         {
-          action: 'coffee-action',
-          title: 'Coffee',
+          action: 'http://www.google.com',
+          title: 'GO TO VERVEAIR ',
           icon: '/images/demos/action-1-128x128.png'
-        },
-        {
-          action: 'doughnut-action',
-          title: 'Doughnut',
-          icon: '/images/demos/action-2-128x128.png'
         }
       ]
     };
