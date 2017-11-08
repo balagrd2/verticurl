@@ -37,13 +37,7 @@
       body: 'Hello, Welcome to Verticurl.\n' +
         'WE THINK GLOBALLY AND DELIVER THE RIGHT RESULTS WHEN YOU NEED THEM.',
       icon: 'images/icons/icon-128x128.png',
-      tag: 'open-window',
-        actions: [
-        {
-          action: 'http://www.google.com',
-          title: 'GO TO VERVEAIR ',
-          icon: '/images/demos/action-1-128x128.png'
-        }
+      tag: 'open-window'
       ]
     };
     registration.showNotification(title, options);
